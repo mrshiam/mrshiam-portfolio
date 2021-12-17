@@ -546,7 +546,7 @@ h6,
 .carosol-div-row {
   margin: 0 auto;
 }
-.custom_nav_link {
+/* .custom_nav_link {
   color: #000;
 }
 .custom_nav_link:active,
@@ -560,6 +560,17 @@ h6,
   background-color: #fff !important;
   border-color: #fff !important;
 }
+*/
 .nav-tab-custom {
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-bottom: 1px solid #000;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+  color: #000;
+  border-color: initial;
   border: none;
 }
